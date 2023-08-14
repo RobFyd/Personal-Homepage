@@ -1,7 +1,12 @@
 import { Container } from "./styled";
+import { MainInformation } from "./MainInformation";
 
 export const PersonalHomepage = () => (
   <Container>
-    <main></main>
+    <main>
+        <MainInformation>
+            
+        </MainInformation>
+    </main>
   </Container>
 );
