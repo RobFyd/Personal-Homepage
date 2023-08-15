@@ -1,4 +1,4 @@
-import robertFydrychProfile from "./profile.png";
+import robertFydrychProfile from "./PH.jpg";
 import {
   Avatar,
   StyledButtonLink,
