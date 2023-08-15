@@ -21,7 +21,30 @@ export const Wrapper = styled.header`
 `;
 
 export const Avatar = styled.img`
-width: 30vw;
-max-width: 384px;
-border-radius: 50%;
-`
+  width: 30vw;
+  max-width: 384px;
+  border-radius: 50%;
+
+@media(max-width: ${({theme}) => themeLight.breakpoints.mobileMax}px) {
+    width: 132px;
+  }
+`;
+
+export const ThisIs = styled.div`
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: initial;
+`;
+
+export const Name = styled.h1`
+font-size: 38px;
+  font-weight: 900;
+  color: ${({theme}) => themeLight.colors.textPrimary};
+  margin: 12px 0 0 0;
+
+  @media(max-width: ${({theme}) => themeLight.breakpoints.mobileMax}px) {
+    font-size: 22px;
+    margin-top: 8px;
+  }
+`;
