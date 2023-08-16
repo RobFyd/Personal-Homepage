@@ -1,20 +1,21 @@
 import styled from "styled-components";
 import { ButtonLink } from "../ButtonLink";
 import { themeLight } from "../../../../core/App/theme";
-// import {ReactComponent as EnvelopeIcon} from "./envelope.svg";
+import {ReactComponent as EnvelopeIcon} from "./envelope.svg";
 
 export const Wrapper = styled.header`
-  margin-top: -30px;
+  margin-top: -30px; // that's height of the theme switch
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: 64px;
   align-items: center;
 
-  @media(max-width: ${({theme}) => themeLight.breakpoints.tabletVertivalMax}px) {
+  @media (max-width: ${({ theme }) =>
+      themeLight.breakpoints.tabletVertivalMax}px) {
     grid-gap: 32px;
   }
 
-  @media(max-width: ${({theme}) => themeLight.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => themeLight.breakpoints.mobileMax}px) {
     grid-template-columns: 1fr;
     grid-gap: 12px;
   }
@@ -25,7 +26,7 @@ export const Avatar = styled.img`
   max-width: 384px;
   border-radius: 50%;
 
-@media(max-width: ${({theme}) => themeLight.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => themeLight.breakpoints.mobileMax}px) {
     width: 132px;
   }
 `;
@@ -38,13 +39,48 @@ export const ThisIs = styled.div`
 `;
 
 export const Name = styled.h1`
-font-size: 38px;
+  font-size: 38px;
   font-weight: 900;
-  color: ${({theme}) => themeLight.colors.textPrimary};
+  color: ${({ theme }) => themeLight.colors.textPrimary};
   margin: 12px 0 0 0;
 
-  @media(max-width: ${({theme}) => themeLight.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => themeLight.breakpoints.mobileMax}px) {
     font-size: 22px;
     margin-top: 8px;
   }
+`;
+
+export const Summary = styled.p`
+  font-size: 20px;
+  margin: 36px 0 0 0;
+  line-height: 1.4;
+  max-width: 650px;
+
+  @media (max-width: ${({ theme }) =>
+      themeLight.breakpoints.tabletVerticalMax}px) {
+    margin-top: 16px;
+  }
+
+  @media (max-width: ${({ theme }) => themeLight.breakpoints.mobileMax}px) {
+    font-size: 16px;
+    max-width: 570px;
+  }
+`;
+export const Icon = styled.img`
+  margin-right: 4px;
+  vertical-align: text-top;
+`;
+
+export const StyledButtonLink = styled(ButtonLink)`
+  display: inline-flex;
+  align-items: center;
+  margin-top: 32px;
+
+  @media (max-width: ${({ theme }) => themeLight.breakpoints.mobileMax}px) {
+    margin-top: 24px;
+  }
+`;
+
+export const ButtonIcon = styled(EnvelopeIcon)`
+  margin-right: 16px;
 `;
