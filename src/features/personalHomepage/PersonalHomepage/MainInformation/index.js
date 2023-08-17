@@ -25,6 +25,10 @@ export const MainInformation = () => (
         I'm a passionate Frontend Developer in love with React, currently
         looking for new job opportunities.
       </Summary>
+      <StyledButtonLink href={'mailto:${email}'} title={email}>
+        <ButtonIcon />
+        Hire me
+      </StyledButtonLink>
     </div>
   </Wrapper>
 );
