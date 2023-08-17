@@ -10,8 +10,7 @@ export const Wrapper = styled.header`
   grid-gap: 64px;
   align-items: center;
 
-  @media (max-width: ${({ theme }) =>
-      themeLight.breakpoints.tabletVertivalMax}px) {
+  @media (max-width: ${({ theme }) => themeLight.breakpoints.tabletVerticalMax}px) {
     grid-gap: 32px;
   }
 
@@ -56,8 +55,7 @@ export const Summary = styled.p`
   line-height: 1.4;
   max-width: 650px;
 
-  @media (max-width: ${({ theme }) =>
-      themeLight.breakpoints.tabletVerticalMax}px) {
+  @media (max-width: ${({ theme }) => themeLight.breakpoints.tabletVerticalMax}px) {
     margin-top: 16px;
   }
 
@@ -67,7 +65,7 @@ export const Summary = styled.p`
   }
 `;
 export const Icon = styled.img`
-  margin-right: 4px;
+  margin-right: 8px;
   vertical-align: text-top;
 `;
 
