@@ -1,7 +1,7 @@
 import styled from "styled-components";
 // import { themeLight } from "../../../../core/App/theme";
 
-export const ButtonLink = styled.a`
+export const ButtonLink = styled.button`
   text-decoration: none;
   padding: 12px 16px;
   font-weight: 600;
@@ -11,8 +11,4 @@ export const ButtonLink = styled.a`
   border-radius: 4px;
   background: #0366d6;
   transition: box-shadow 0.3s;
-
-  &:hover {
-    box-shadow: 3px 3px 3px 3px;
-  }
 `;
