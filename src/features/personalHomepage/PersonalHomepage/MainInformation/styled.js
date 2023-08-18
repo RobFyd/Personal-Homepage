@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ButtonLink } from "../ButtonLink";
+// import { ButtonLink } from "../ButtonLink";
 import { themeLight } from "../../../../core/App/theme";
 import {ReactComponent as EnvelopeIcon} from "./envelope.svg";
 
@@ -67,6 +67,26 @@ export const Summary = styled.p`
 export const Icon = styled.img`
   margin-right: 8px;
   vertical-align: text-top;
+`;
+
+const ButtonLink = styled.a`
+  text-decoration: none;
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid ${({ theme }) => themeLight.colors.buttonLink.border};
+  color: ${({ theme }) => themeLight.colors.buttonLink.text};
+  border-radius: ${({ theme }) => themeLight.borderRadiusSmall};
+  background: ${({ theme }) => themeLight.colors.primary};
+  transition: box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: 0 0 0 2px ${({ theme }) => themeLight.colors.buttonLink.shadow};
+  }
+
+  @media (max-width: ${({ theme }) => themeLight.breakpoints.mobileMax}px) {
+    font-size: 18px;
+  }
 `;
 
 export const StyledButtonLink = styled(ButtonLink)`
