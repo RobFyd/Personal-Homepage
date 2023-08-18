@@ -64,8 +64,14 @@ export const Summary = styled.p`
     max-width: 570px;
   }
 `;
+
 export const Icon = styled.img`
-  margin-right: 8px;
+  margin-right: 6px;
+  vertical-align: text-top;
+`;
+
+export const Icon2 = styled.img`
+  margin-right: 12px;
   vertical-align: text-top;
 `;
 
