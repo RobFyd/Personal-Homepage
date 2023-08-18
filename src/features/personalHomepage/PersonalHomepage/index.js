@@ -3,10 +3,9 @@ import { MainInformation } from "./MainInformation";
 
 export const PersonalHomepage = () => (
   <Container>
+    <MainInformation />
     <main>
-        <MainInformation>
-            
-        </MainInformation>
+      
     </main>
   </Container>
 );
