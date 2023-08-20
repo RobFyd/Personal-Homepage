@@ -2,6 +2,7 @@ import { Container, Icon } from "./styled";
 import { MainInformation } from "./MainInformation";
 import { Skills } from "./Skills";
 import { skills, nextSkills } from "./skillsData";
+import { Footer } from "./Footer";
 import toolsIcon from "./toolsIcon.png";
 import rocketIcon from "./rocketIcon.png";
 
