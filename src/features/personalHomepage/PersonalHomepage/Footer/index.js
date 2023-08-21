@@ -11,7 +11,5 @@ import {
 
 
 export const Footer = () => (
-<Wrapper>
-    <SocialIcons />
-</Wrapper>
+<Wrapper>h</Wrapper>
 );

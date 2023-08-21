@@ -27,5 +27,7 @@ export const PersonalHomepage = () => (
         skills={nextSkills}
       />
     </main>
+
+    <Footer />
   </Container>
 );
