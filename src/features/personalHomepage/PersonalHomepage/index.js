@@ -9,7 +9,7 @@ import rocketIcon from "./rocketIcon.png";
 export const PersonalHomepage = () => (
   <Container>
     <MainInformation />
-    <main>
+    <>
       <Skills
         title={
           <>
@@ -26,7 +26,7 @@ export const PersonalHomepage = () => (
         }
         skills={nextSkills}
       />
-    </main>
+    </>
 
     <Footer />
   </Container>
