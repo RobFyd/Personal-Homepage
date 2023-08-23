@@ -5,6 +5,7 @@ import { skills, nextSkills } from "./skillsData";
 import { Footer } from "./Footer";
 import toolsIcon from "./toolsIcon.png";
 import rocketIcon from "./rocketIcon.png";
+import { Portfolio } from "./Portfolio";
 
 export const PersonalHomepage = () => (
   <Container>
@@ -27,7 +28,7 @@ export const PersonalHomepage = () => (
         skills={nextSkills}
       />
     </>
-
+    <Portfolio />
     <Footer />
   </Container>
 );
