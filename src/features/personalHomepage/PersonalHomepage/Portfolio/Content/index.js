@@ -2,9 +2,11 @@ import { Repositories } from "./Repositories";
 // import {Loading} from "./Loading";
 // import {Error} from "./Error";
 
-// export const Content = () => {
+const Content = () => {
 
-//     return (
-//         <Repositories>Repositories</Repositories>
-//     )
-// }
+    return (
+        <Repositories />
+    )
+}
+
+export default Content;

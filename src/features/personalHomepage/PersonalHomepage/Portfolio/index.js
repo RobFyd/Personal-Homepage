@@ -15,6 +15,8 @@ export const Portfolio = () => {
         <SubHeader>Portfolio</SubHeader>
         <MyRecentProjects>My recent projects</MyRecentProjects>
       </Header>
+      
+      <Content />
     </Section>
   );
 };
