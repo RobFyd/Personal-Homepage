@@ -3,7 +3,7 @@ import { themeLight } from "../../../../core/App/theme";
 import { ReactComponent as EnvelopeIcon } from "./envelope.svg";
 
 export const Wrapper = styled.header`
-  /* margin-top: -30px; that's height of the theme switch */
+  margin-top: -30px;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: 64px;
