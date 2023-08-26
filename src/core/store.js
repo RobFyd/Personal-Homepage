@@ -1,8 +1,16 @@
-// import { configureStore } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
 // import createSagaMiddleware from "redux-saga";
 // import personalHomepageReducer from "../features/personalHomepage/personalHomePageSlice";
-// import themeReducer from "../common/themeSlice";
+import themeReducer from "../common/themeSlice";
 // import saga from "./saga";
+
+const store = configureStore({
+    reducer: {
+      theme: themeReducer,
+    },
+  });
+  
+  export default store;
 
 // const sagaMiddleware = createSagaMiddleware();
 
@@ -17,3 +25,4 @@
 // sagaMiddleware.run(saga);
 
 // export default store;
+
