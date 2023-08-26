@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import Content from "./Content";
 import { StyledGithubIcon, Header, Section, MyRecentProjects } from "./styled";
-// import { SubHeader } from
 import { githubUsername } from "./githubUsername";
 import { useDispatch, useSelector } from "react-redux";
 import { SubHeader } from "../SubHeader";
