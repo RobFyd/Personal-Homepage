@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { themeLight } from "../../../../core/App/theme";
 import { ReactComponent as EnvelopeIcon } from "./envelope.svg";
 
 export const Wrapper = styled.header`
@@ -9,11 +8,11 @@ export const Wrapper = styled.header`
   grid-gap: 64px;
   align-items: center;
 
-  @media (max-width: ${({ theme }) => themeLight.breakpoints.tabletVerticalMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
     grid-gap: 32px;
   }
 
-  @media (max-width: ${({ theme }) => themeLight.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     grid-template-columns: 1fr;
     grid-gap: 12px;
   }
@@ -24,7 +23,7 @@ export const Avatar = styled.img`
   max-width: 384px;
   border-radius: 50%;
 
-  @media (max-width: ${({ theme }) => themeLight.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     width: 132px;
   }
 `;
@@ -39,10 +38,10 @@ export const ThisIs = styled.div`
 export const Name = styled.h1`
   font-size: 38px;
   font-weight: 900;
-  color: ${({ theme }) => themeLight.colors.textPrimary};
+  color: ${({ theme }) => theme.colors.textPrimary};
   margin: 12px 0 0 0;
 
-  @media (max-width: ${({ theme }) => themeLight.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 22px;
     margin-top: 8px;
   }
@@ -54,11 +53,11 @@ export const Summary = styled.p`
   line-height: 1.4;
   max-width: 650px;
 
-  @media (max-width: ${({ theme }) => themeLight.breakpoints.tabletVerticalMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
     margin-top: 16px;
   }
 
-  @media (max-width: ${({ theme }) => themeLight.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 16px;
     max-width: 570px;
   }
@@ -79,17 +78,17 @@ const ButtonLink = styled.a`
   padding: 12px 16px;
   font-weight: 600;
   font-size: 20px;
-  border: 1px solid ${({ theme }) => themeLight.colors.buttonLink.border};
-  color: ${({ theme }) => themeLight.colors.buttonLink.text};
-  border-radius: ${({ theme }) => themeLight.borderRadiusSmall};
-  background: ${({ theme }) => themeLight.colors.primary};
+  border: 1px solid ${({ theme }) => theme.colors.buttonLink.border};
+  color: ${({ theme }) => theme.colors.buttonLink.text};
+  border-radius: ${({ theme }) => theme.borderRadiusSmall};
+  background: ${({ theme }) => theme.colors.primary};
   transition: box-shadow 0.3s;
 
   &:hover {
-    box-shadow: 0 0 0 2px ${({ theme }) => themeLight.colors.buttonLink.shadow};
+    box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.buttonLink.shadow};
   }
 
-  @media (max-width: ${({ theme }) => themeLight.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 18px;
   }
 `;
@@ -99,7 +98,7 @@ export const StyledButtonLink = styled(ButtonLink)`
   align-items: center;
   margin-top: 32px;
 
-  @media (max-width: ${({ theme }) => themeLight.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     margin-top: 24px;
   }
 `;

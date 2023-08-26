@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import { themeLight } from "./theme";
 
 export const GlobalStyle = createGlobalStyle`
   html {
@@ -12,15 +11,15 @@ export const GlobalStyle = createGlobalStyle`
   
   body {
     font-family: "Inter", sans-serif;
-    transition: background 0.3s;
-    background-color: ${({ theme }) => themeLight.colors.site.background};
-    color: ${({ theme }) => themeLight.colors.site.text};
+    transition: background 0.4s;
+    background-color: ${({ theme }) => theme.colors.site.background};
+    color: ${({ theme }) => theme.colors.site.text};
     font-size: 18px;
     letter-spacing: 0.05em;
     word-break: break-word;
     padding-bottom: 108px;
 
-    @media(max-width: ${({ theme }) => themeLight.breakpoints.mobileMax}px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
       padding-bottom: 32px;
     }
   }
