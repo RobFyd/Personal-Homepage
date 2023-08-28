@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.js": "/Personal-Homepage/static/js/main.913ae341.js",
+    "main.js": "/Personal-Homepage/static/js/main.809234f1.js",
     "static/js/787.162bc9a0.chunk.js": "/Personal-Homepage/static/js/787.162bc9a0.chunk.js",
     "static/media/PH.jpg": "/Personal-Homepage/static/media/PH.74e0ff798690388b4905.jpg",
     "static/media/faceIcon.png": "/Personal-Homepage/static/media/faceIcon.5e894da67878ee8d1b43.png",
     "static/media/laptopIcon.png": "/Personal-Homepage/static/media/laptopIcon.f569d8be2e4a9eca7640.png",
-    "static/media/instagram.svg": "/Personal-Homepage/static/media/instagram.c41e9a663b9feec380d32ec94ab0dcf2.svg",
     "static/media/sun.svg": "/Personal-Homepage/static/media/sun.9226f96ea5c629675b5454c9d52584d8.svg",
     "static/media/github.svg": "/Personal-Homepage/static/media/github.f15295b8bbcb40f943678305b606ffda.svg",
     "index.html": "/Personal-Homepage/index.html",
+    "static/media/warning.svg": "/Personal-Homepage/static/media/warning.0307684b8c46ec3c19b7f94d9b9fb5c2.svg",
     "static/media/linkedin.svg": "/Personal-Homepage/static/media/linkedin.015ec9d73797973030e3a71fe9312344.svg",
     "static/media/envelope.svg": "/Personal-Homepage/static/media/envelope.0fc5b2e577ad18e10a1410496a993ed5.svg",
     "static/media/facebook.svg": "/Personal-Homepage/static/media/facebook.2cb711b8372f96a6f7351888348f96e1.svg",
-    "static/media/bullet.svg": "/Personal-Homepage/static/media/bullet.48a375cfcdd97d2148043c4e720e56e0.svg",
-    "main.913ae341.js.map": "/Personal-Homepage/static/js/main.913ae341.js.map",
+    "static/media/spinner.svg": "/Personal-Homepage/static/media/spinner.e3c4867e326dc2fdb560de8110a9e0f7.svg",
+    "static/media/bullet.svg": "/Personal-Homepage/static/media/bullet.2b80dd419b3e5eba7730998fe8eb2308.svg",
+    "main.809234f1.js.map": "/Personal-Homepage/static/js/main.809234f1.js.map",
     "787.162bc9a0.chunk.js.map": "/Personal-Homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.913ae341.js"
+    "static/js/main.809234f1.js"
   ]
 }
