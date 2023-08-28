@@ -3,7 +3,6 @@ import { Loading } from "./Loading";
 import { Error } from "./ErrorBox";
 
 const Content = ({ status, repositories }) => {
-  return <Error />;
   switch (status) {
     case "initial":
       return null;

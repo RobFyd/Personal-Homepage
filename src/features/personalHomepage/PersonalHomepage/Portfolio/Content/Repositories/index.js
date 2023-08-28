@@ -11,10 +11,10 @@ import {
 
 export const Repositories = ({ repositories }) => (
   <List>
-    {repositories.map(({ id, name, descripton, homepage, html_url }) => (
+    {repositories.map(({ id, name, description, homepage, html_url }) => (
       <Tile key={id}>
         <Name>{name}</Name>
-        <Description>{descripton}</Description>
+        <Description>{description}</Description>
         <Links>
           {!!homepage && (
             <LinksRow>
