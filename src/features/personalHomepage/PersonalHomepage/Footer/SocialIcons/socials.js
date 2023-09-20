@@ -7,7 +7,7 @@ import { ReactComponent as LinkedInIcon } from "./icons/linkedin.svg";
 export const socials = [
   {
     name: "GitHub",
-    url: "https://github.com",
+    url: "https://github.com/RobFyd",
     Icon: styleIcon(GithubIcon),
   },
   {
