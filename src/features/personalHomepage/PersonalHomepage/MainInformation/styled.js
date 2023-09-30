@@ -78,14 +78,19 @@ const ButtonLink = styled.a`
   padding: 12px 16px;
   font-weight: 600;
   font-size: 20px;
+  background-image: ${({ theme }) => theme.gradients};
+  background-size: 290%;
+  background-position: left;
+  transition: 0.8s;
   border: 1px solid ${({ theme }) => theme.colors.buttonLink.border};
   color: ${({ theme }) => theme.colors.buttonLink.text};
   border-radius: ${({ theme }) => theme.borderRadiusSmall};
-  background: ${({ theme }) => theme.colors.primary};
-  transition: box-shadow 0.3s;
+  /* background: ${({ theme }) => theme.colors.primary}; */
+  /* transition: box-shadow 0.3s; */
 
   &:hover {
-    box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.buttonLink.shadow};
+    /* box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.buttonLink.shadow}; */
+    background-position: right;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {

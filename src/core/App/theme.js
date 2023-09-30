@@ -28,6 +28,9 @@ const common = {
     "0 -2px 50px rgba(9, 10, 51, 0.02), 0 16px 58px rgba(9, 10, 51, 0.03)",
 
   borderRadiusSmall: "4px",
+
+  gradients:
+    "linear-gradient(107deg, rgba(3,102,214,1) 80%, rgba(35,0,209,1) 95%, rgba(19,0,117,1) 100%)",
 };
 
 export const themeLight = {
