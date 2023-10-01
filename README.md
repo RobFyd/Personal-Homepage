@@ -4,14 +4,16 @@
 
 ## Personal-Homepage
 
-### Homepage in React version :) This application presents me and my completed projects. There you will also find the skills that I have acquired and the skills that I plan to acquire.
+### This is a React-based homepage :) This application showcases my completed projects, as well as the skills I have acquired and those I plan to develop.
+
+### Screenshot
+![Image]()
+
+## Technologies
+
+![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,redux,git,styledcomponents,figma,)
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
