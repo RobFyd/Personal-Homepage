@@ -35,4 +35,5 @@ export const nextSkills = [
   "Cypress",
   "Unit testing",
   "React Context",
+  "WordPress",
 ];
