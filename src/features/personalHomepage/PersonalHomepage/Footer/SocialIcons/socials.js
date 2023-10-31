@@ -12,12 +12,12 @@ export const socials = [
   },
   {
     name: "Facebook",
-    url: "https://facebook.com",
+    url: "https://www.facebook.com/robert.fydrych",
     Icon: styleIcon(FacebookIcon),
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com",
+    url: "http://linkedin.com/in/robert-fydrych",
     Icon: styleIcon(LinkedInIcon),
   },
   // {
