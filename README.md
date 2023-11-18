@@ -2,9 +2,12 @@
 <h1 style="font-size: 60px;">Hello 🌍</h1>
 </div>
 
-## Personal-Homepage
+<div align="center">
+<h1 style="font-size: 30px;">Personal Homepage</h1>
+</div>
+
 <br>
-### This is a React-based homepage :) This application showcases my completed projects, as well as the skills I have acquired and those I plan to develop.
+This is a React-based homepage :) This application showcases my completed projects, as well as the skills I have acquired and those I plan to develop.
 
 ### Screenshot:
 ![Image](https://github.com/RobFyd/Personal-Homepage/blob/main/public/screenShot.png?raw=true)
@@ -13,8 +16,14 @@
 ![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,redux,git,styledcomponents,figma,)
 
 ### Check it out:
-[My Home Page](https://robfyd.github.io/Personal-Homepage/)
+## [My Home Page](https://robfyd.github.io/Personal-Homepage/)
 
+<br>
+
+```javascript
+let x = "Thank you for your attention";
+console.log(x);
+```
 
 <br>
 <br>
