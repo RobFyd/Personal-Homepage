@@ -16,7 +16,7 @@ export const PersonalHomepage = () => (
       <Skills
         title={
           <>
-            My skillset includesc <Icon src={toolsIcon} alt="" />
+            My skillset includes <Icon src={toolsIcon} alt="" />
           </>
         }
         skills={skills}
