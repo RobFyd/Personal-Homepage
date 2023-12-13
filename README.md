@@ -12,7 +12,7 @@
 ![Image](https://github.com/RobFyd/Personal-Homepage/blob/main/public/screenShot.png?raw=true)
 
 ### Technologies:
-![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,redux,git,styledcomponents,figma,git,github)
+![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,redux,git,styledcomponents,figma,github,vscode)
 
 - HTML
 - CSS
