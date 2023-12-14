@@ -27,13 +27,14 @@ export const skills = [
 ];
 
 export const nextSkills = [
-  "CSS in JS",
+  
   "TypeScript",
+  "Node.js",
+  "Next.js",
+  "React Native",
+  "Vue.js",
+  "WordPress/Drupal",
   "JS classes",
   "React Testing Library",
-  "Node.js",
-  "Cypress",
-  "Unit testing",
-  "React Context",
-  "WordPress",
+  "CSS in JS",
 ];
