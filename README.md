@@ -6,17 +6,27 @@
 <h1 style="font-size: 30px;">Personal Homepage</h1>
 </div>
 
-<br>
-This is a React-based homepage :) This application showcases my completed projects, as well as the skills I have acquired and those I plan to develop.
+## This is a React-based homepage :) This application showcases my completed projects, as well as the skills I have acquired and those I plan to develop.
 
 ### Screenshot:
 ![Image](https://github.com/RobFyd/Personal-Homepage/blob/main/public/screenShot.png?raw=true)
 
 ### Technologies:
-![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,redux,git,styledcomponents,figma,)
+![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,redux,git,styledcomponents,figma,github,vscode)
 
-### Check it out:
-## [My Home Page](https://robfyd.github.io/Personal-Homepage/)
+- HTML
+- CSS
+- Javascript
+- React
+- styled components
+- react-router-dom
+- Redux (@reduxjs/toolkit, react-redux, redux-saga)
+- axios
+- custom hooks
+- figma
+- git
+
+## My Home Page: [click me!!!](https://robfyd.github.io/Personal-Homepage/)
 
 <br>
 
