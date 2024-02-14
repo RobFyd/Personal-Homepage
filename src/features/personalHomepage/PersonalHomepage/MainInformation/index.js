@@ -22,7 +22,9 @@ export const MainInformation = () => (
       <Name>Robert Fydrych</Name>
       <Summary>
         <Icon src={faceIcon} alt="" />
-        <Icon2 src={laptopIcon} alt="" />I am a passionate Frontend Developer
+        <Icon2 src={laptopIcon} alt="" />
+        {/* ⌨️🖱️ */}
+         I am a passionate Frontend Developer
         deepening my knowledge in React, currently looking for new job
         opportunities.
       </Summary>
