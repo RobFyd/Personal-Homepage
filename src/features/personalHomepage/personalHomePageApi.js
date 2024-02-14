@@ -8,6 +8,9 @@ export const excludedRepositories = [
   "BMI-calculator-in-React",
   "Currency-Converter-in-React",
   "Personal-Homepage",
+  "react-redux",
+  "react-redux-template",
+  "RobFyd",
 ];
 
 export const getRepositories = (username) =>
