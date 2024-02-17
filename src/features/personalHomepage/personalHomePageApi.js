@@ -11,6 +11,7 @@ export const excludedRepositories = [
   "react-redux",
   "react-redux-template",
   "RobFyd",
+  "to-do-list-in-react-without-redux",
 ];
 
 export const getRepositories = (username) =>
