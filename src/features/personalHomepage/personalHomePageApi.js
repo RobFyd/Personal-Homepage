@@ -3,8 +3,9 @@ import axios from "axios";
 const githubAPIBaseURL = "https://api.github.com";
 
 export const excludedRepositories = [
-  "practise-in-js",
-  "practise-in-react",
+  "practice-in-js",
+  "practice-in-react",
+  "practice-in-ts",
   "BMI-calculator-in-React",
   "Currency-Converter-in-React",
   "Personal-Homepage",
