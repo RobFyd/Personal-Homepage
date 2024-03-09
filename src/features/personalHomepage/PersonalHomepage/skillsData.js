@@ -8,7 +8,8 @@ export const skills = [
   "CSS Grid",
   "CSS Flexbox",
   "Styled Components",
-  "JavaScript ES6+",
+  "JavaScript",
+  "TypeScript",
   "Immutability",
   "React",
   "React useState, useEffect, useRef",
@@ -28,7 +29,6 @@ export const skills = [
 
 export const nextSkills = [
   
-  "TypeScript",
   "Node.js",
   "Next.js",
   "React Native",
@@ -37,4 +37,5 @@ export const nextSkills = [
   "JS classes",
   "React Testing Library",
   "CSS in JS",
+  "SQLite",
 ];
