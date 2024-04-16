@@ -13,6 +13,7 @@ export const excludedRepositories = [
   "react-redux-template",
   "RobFyd",
   "to-do-list-in-react-without-redux",
+  "JavaScript30",
 ];
 
 export const getRepositories = (username) =>
