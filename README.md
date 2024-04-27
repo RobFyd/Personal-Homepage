@@ -9,7 +9,7 @@
 ## This is a React-based homepage :) This application showcases my completed projects, as well as the skills I have acquired and those I plan to develop.
 
 ### Screenshot:
-![Image]()
+![Image](https://github.com/RobFyd/Personal-Homepage/blob/main/public/ssph.png?raw=true)
 
 ### Technologies:
 ![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,redux,git,styledcomponents,figma,github,vscode,babel)
