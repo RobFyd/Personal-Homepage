@@ -101,12 +101,12 @@ export const Icon2 = styled.img`
 export const ButtonLink = styled.a`
   text-decoration: none;
   position: relative;
-  padding: 12px 35px;
-  background: #4c83fa;
-  font-size: 17px;
-  font-weight: 1000;
-  color: #ffffff;
-  border: 3px solid #4c83fa;
+  padding: 12px 20px;
+  background: #2188FF;
+  font-weight: 600;
+  font-size: 20px;
+  color: ${({ theme }) => theme.colors.buttonLink.text};
+  border: 3px solid #2188FF;
   border-radius: 8px;
   box-shadow: 0 0 0 #ffffff;
   transition: all 0.3s ease-in-out;
@@ -114,8 +114,8 @@ export const ButtonLink = styled.a`
 
   &:hover {
     background: transparent;
-    color: #4c83fa;
-    box-shadow: 0 0 0px #4c83fa;
+    color: #2188FF;
+    box-shadow: 0 0 0px #2188FF;
   }
 
   &:hover .star1 {
@@ -130,7 +130,7 @@ export const ButtonLink = styled.a`
 
   &:hover .star2 {
     position: absolute;
-    top: -0%;
+    top: -10%;
     left: 10%;
     width: 15px;
     height: auto;
@@ -151,7 +151,7 @@ export const ButtonLink = styled.a`
   &:hover .star4 {
     position: absolute;
     top: 30%;
-    left: 80%;
+    left: 92%;
     width: 8px;
     height: auto;
     filter: drop-shadow(0 0 0px #4c83fa);
@@ -170,12 +170,17 @@ export const ButtonLink = styled.a`
 
   &:hover .star6 {
     position: absolute;
-    top: 5%;
+    top: -5%;
     left: 60%;
     width: 5px;
     height: auto;
     filter: drop-shadow(0 0 0px #4c83fa);
     z-index: 2;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    font-size: 16px;
+    padding: 8px 16px;
   }
 `;
 
@@ -192,7 +197,7 @@ export const Star1 = styled.div`
   height: auto;
   filter: drop-shadow(0 0 0 #4c83fa);
   z-index: -5;
-  transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+  transition: all 1.2s cubic-bezier(0.05, 0.83, 0.43, 0.96);
 `;
 
 export const Star2 = styled.div`
@@ -208,7 +213,7 @@ export const Star2 = styled.div`
   height: auto;
   filter: drop-shadow(0 0 0 #4c83fa);
   z-index: -5;
-  transition: all 1scubic-bezier(0, 0.4, 0, 1.01);
+  transition: all 1.2s cubic-bezier(0, 0.4, 0, 1.01);
 `;
 
 export const Star3 = styled.div`
@@ -224,7 +229,7 @@ export const Star3 = styled.div`
   height: auto;
   filter: drop-shadow(0 0 0 #4c83fa);
   z-index: -5;
-  transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+  transition: all 1.2s cubic-bezier(0, 0.4, 0, 1.01);
 `;
 
 export const Star4 = styled.div`
@@ -240,7 +245,7 @@ export const Star4 = styled.div`
   height: auto;
   filter: drop-shadow(0 0 0 #4c83fa);
   z-index: -5;
-  transition: all 0.8s cubic-bezier(0, 0.4, 0, 1.01);
+  transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
 `;
 
 export const Star5 = styled.div`
@@ -256,7 +261,7 @@ export const Star5 = styled.div`
   height: auto;
   filter: drop-shadow(0 0 0 #4c83fa);
   z-index: -5;
-  transition: all 0.6s cubic-bezier(0, 0.4, 0, 1.01);
+  transition: all 0.8s cubic-bezier(0, 0.4, 0, 1.01);
 `;
 
 export const Star6 = styled.div`
@@ -272,11 +277,11 @@ export const Star6 = styled.div`
   height: auto;
   filter: drop-shadow(0 0 0 #4c83fa);
   z-index: -5;
-  transition: all 0.8s ease;
+  transition: all 1s ease;
 `;
 
 export const Path = styled.path`
-  fill: #4c83fa;
+  fill: #2188FF;
 `;
 
 export const StyledButtonLink = styled(ButtonLink)`
