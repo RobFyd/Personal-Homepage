@@ -73,29 +73,75 @@ export const Icon2 = styled.img`
   vertical-align: text-top;
 `;
 
-const ButtonLink = styled.a`
+// const ButtonLink = styled.a`
+//   text-decoration: none;
+//   padding: 12px 16px;
+//   font-weight: 600;
+//   font-size: 20px;
+//   background-image: ${({ theme }) => theme.gradients};
+//   background-size: 290%;
+//   background-position: left;
+//   transition: 0.8s;
+//   border: 1px solid ${({ theme }) => theme.colors.buttonLink.border};
+//   color: ${({ theme }) => theme.colors.buttonLink.text};
+//   border-radius: ${({ theme }) => theme.borderRadiusSmall};
+//   /* background: ${({ theme }) => theme.colors.primary}; */
+//   /* transition: box-shadow 0.3s; */
+
+//   &:hover {
+//     /* box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.buttonLink.shadow}; */
+//     background-position: right;
+//   }
+
+//   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+//     font-size: 18px;
+//   }
+// `;
+
+export const ButtonLink = styled.a`
   text-decoration: none;
-  padding: 12px 16px;
-  font-weight: 600;
-  font-size: 20px;
-  background-image: ${({ theme }) => theme.gradients};
-  background-size: 290%;
-  background-position: left;
-  transition: 0.8s;
-  border: 1px solid ${({ theme }) => theme.colors.buttonLink.border};
-  color: ${({ theme }) => theme.colors.buttonLink.text};
-  border-radius: ${({ theme }) => theme.borderRadiusSmall};
-  /* background: ${({ theme }) => theme.colors.primary}; */
-  /* transition: box-shadow 0.3s; */
+  position: relative;
+  padding: 12px 35px;
+  background: #4c83fa;
+  font-size: 17px;
+  font-weight: 1000;
+  color: #ffffff;
+  border: 3px solid #4c83fa;
+  border-radius: 8px;
+  box-shadow: 0 0 0 #ffffff;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 
   &:hover {
-    /* box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.buttonLink.shadow}; */
-    background-position: right;
+    background: transparent;
+    color: #4c83fa;
+    box-shadow: 0 0 0px #4c83fa;
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    font-size: 18px;
+  &:hover .star1 {
+    position: absolute;
+    top: -80%;
+    left: -30%;
+    width: 25px;
+    height: auto;
+    filter: drop-shadow(0 0 0px #4c83fa);
+    z-index: 2;
   }
+`;
+
+export const Star1 = styled.div`
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 25px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #4c83fa);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+`;
+
+export const Path = styled.path`
+  fill: #4c83fa;
 `;
 
 export const StyledButtonLink = styled(ButtonLink)`
