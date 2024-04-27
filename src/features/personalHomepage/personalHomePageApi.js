@@ -16,15 +16,31 @@ export const excludedRepositories = [
   "JavaScript30",
 ];
 
+const preferredOrder = [
+  "movies-browser-panama",
+  "To-Do-List-in-React",
+  "Money-Exchanger-in-React",
+  "Calculator-JS",
+  "Tic-Tac-Toe-in-React",
+  "BMI-Calculator",
+  "Currency-Converter",
+  "Homepage",
+  "To-Do-List",
+  "Money-Exchanger",
+];
+
 export const getRepositories = (username) =>
   axios.get(`${githubAPIBaseURL}/users/${username}/repos`).then((response) => {
     const allRepositories = response.data;
-
     const filteredRepositories = allRepositories.filter((repo) => {
       return !excludedRepositories.includes(repo.name);
     });
 
-    return filteredRepositories;
+    const sortedRepositories = filteredRepositories.sort((a, b) => {
+      return preferredOrder.indexOf(a.name) - preferredOrder.indexOf(b.name);
+    });
+
+    return sortedRepositories;
   });
 
 
