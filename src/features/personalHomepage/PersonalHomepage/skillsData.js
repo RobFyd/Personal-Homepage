@@ -1,7 +1,6 @@
 export const skills = [
-  "Semantic & accessible HTML",
+  "HTML - semantic & accessible",
   "Responsive Web Design",
-  "Markdown",
   "NPM",
   "Git",
   "CSS BEM convention",
@@ -20,22 +19,18 @@ export const skills = [
   "Error handling",
   "Promises, Async/Await",
   "Working with API (fetch, axios)",
+  "SQLite",
   "Teamwork",
   "GitHub Pull Requests & Review",
   "Scrum",
   "Figma",
-  "Trello",
 ];
 
 export const nextSkills = [
-  
   "Node.js",
   "Next.js",
   "React Native",
-  "Vue.js",
-  "WordPress/Drupal",
   "JS classes",
   "React Testing Library",
-  "CSS in JS",
-  "SQLite",
+  "WordPress/Drupal",
 ];
