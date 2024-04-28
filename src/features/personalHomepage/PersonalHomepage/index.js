@@ -4,8 +4,8 @@ import { MainInformation } from "./MainInformation";
 import { Skills } from "./Skills";
 import { skills, nextSkills } from "./skillsData";
 import { Footer } from "./Footer";
-import toolsIcon from "./toolsIcon.png";
-import rocketIcon from "./rocketIcon.png";
+import rocketIcon from "./rocket.svg";
+import toolboxIcon from "./toolbox.svg";
 import { Portfolio } from "./Portfolio";
 
 export const PersonalHomepage = () => (
@@ -16,7 +16,7 @@ export const PersonalHomepage = () => (
       <Skills
         title={
           <>
-            My skillset includes <Icon src={toolsIcon} alt="" />
+            My skillset includes <Icon src={toolboxIcon} alt="" />
           </>
         }
         skills={skills}
