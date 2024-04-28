@@ -19,8 +19,8 @@ import {
   Path,
 } from "./styled.js";
 import { email } from "../email";
-import faceIcon from "./faceIcon.png";
-import laptopIcon from "./laptopIcon.png";
+import reactIcon from "./react.svg";
+import desktopIcon from "./desktop.svg";
 import robertProfileL from "./PH1.jpeg";
 import robertProfileD from "./PH2.jpeg";
 
@@ -37,9 +37,9 @@ export const MainInformation = () => {
         <ThisIs>This is</ThisIs>
         <Name>Robert Fydrych</Name>
         <Summary>
-          <Icon src={faceIcon} alt="" />
-          <Icon2 src={laptopIcon} alt="" />
-          {/* ⌨️🖱️ */}I am a passionate Frontend Developer deepening my
+          <Icon src={desktopIcon} alt="" />
+          <Icon2 src={reactIcon} alt="" />
+          I am a passionate Frontend Developer deepening my
           knowledge in React, currently looking for new job opportunities.
         </Summary>
         <StyledButtonLink href={`mailto:${email}`} title={email}>
