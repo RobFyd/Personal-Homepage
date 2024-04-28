@@ -69,44 +69,19 @@ export const Icon = styled.img`
 `;
 
 export const Icon2 = styled.img`
-  margin-right: 12px;
+  margin-right: 10px;
   vertical-align: text-top;
 `;
-
-// const ButtonLink = styled.a`
-//   text-decoration: none;
-//   padding: 12px 16px;
-//   font-weight: 600;
-//   font-size: 20px;
-//   background-image: ${({ theme }) => theme.gradients};
-//   background-size: 290%;
-//   background-position: left;
-//   transition: 0.8s;
-//   border: 1px solid ${({ theme }) => theme.colors.buttonLink.border};
-//   color: ${({ theme }) => theme.colors.buttonLink.text};
-//   border-radius: ${({ theme }) => theme.borderRadiusSmall};
-//   /* background: ${({ theme }) => theme.colors.primary}; */
-//   /* transition: box-shadow 0.3s; */
-
-//   &:hover {
-//     /* box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.buttonLink.shadow}; */
-//     background-position: right;
-//   }
-
-//   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-//     font-size: 18px;
-//   }
-// `;
 
 export const ButtonLink = styled.a`
   text-decoration: none;
   position: relative;
   padding: 12px 20px;
-  background: #2188FF;
+  background: #2188ff;
   font-weight: 600;
   font-size: 20px;
   color: ${({ theme }) => theme.colors.buttonLink.text};
-  border: 3px solid #2188FF;
+  border: 3px solid #2188ff;
   border-radius: 8px;
   box-shadow: 0 0 0 #ffffff;
   transition: all 0.3s ease-in-out;
@@ -114,8 +89,8 @@ export const ButtonLink = styled.a`
 
   &:hover {
     background: transparent;
-    color: #2188FF;
-    box-shadow: 0 0 0px #2188FF;
+    color: #2188ff;
+    box-shadow: 0 0 0px #2188ff;
   }
 
   &:hover .star1 {
@@ -281,7 +256,7 @@ export const Star6 = styled.div`
 `;
 
 export const Path = styled.path`
-  fill: #2188FF;
+  fill: #2188ff;
 `;
 
 export const StyledButtonLink = styled(ButtonLink)`
