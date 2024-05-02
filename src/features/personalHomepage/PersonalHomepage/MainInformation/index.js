@@ -38,9 +38,9 @@ export const MainInformation = () => {
         <Name>Robert Fydrych</Name>
         <Summary>
           <Icon src={desktopIcon} alt="" />
-          <Icon2 src={reactIcon} alt="" />
-          I am a passionate Frontend Developer deepening my
-          knowledge in React, currently looking for new job opportunities.
+          <Icon2 src={reactIcon} alt="" />I am a passionate Frontend Developer
+          deepening my knowledge in React, currently looking for new job
+          opportunities.
         </Summary>
         <StyledButtonLink href={`mailto:${email}`} title={email}>
           <ButtonIcon />

@@ -43,12 +43,6 @@ export const getRepositories = (username) =>
     return sortedRepositories;
   });
 
-
-
-
-
-
-
 // import axios from "axios";
 
 // const githubAPIBaseURL = "https://api.github.com";
