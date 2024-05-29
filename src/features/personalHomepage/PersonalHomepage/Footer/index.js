@@ -10,7 +10,7 @@ import {
 } from "./styled";
 
 export const Footer = () => (
-  <Wrapper>
+  <Wrapper id="contact">
     <LetsTalk>Let's talk!</LetsTalk>
     <Address>
       <EmailWrapper>

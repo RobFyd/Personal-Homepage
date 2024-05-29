@@ -18,7 +18,7 @@ import {
   Star6,
   Path,
 } from "./styled.js";
-import { email } from "../email";
+// import { email } from "../email";
 import reactIcon from "./react.svg";
 import desktopIcon from "./desktop.svg";
 import robertProfileL from "./PH1.jpeg";
@@ -42,7 +42,8 @@ export const MainInformation = () => {
           deepening my knowledge in React, currently looking for new job
           opportunities.
         </Summary>
-        <StyledButtonLink href={`mailto:${email}`} title={email}>
+        {/* <StyledButtonLink href={`mailto:${email}`} title={email}> */}
+        <StyledButtonLink href="#contact" rel="noreferrer nooppener">
           <ButtonIcon />
           Hire me
           <Star1 className="star1">
