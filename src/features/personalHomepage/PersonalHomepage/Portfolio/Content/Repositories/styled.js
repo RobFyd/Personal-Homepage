@@ -69,6 +69,11 @@ export const Links = styled.dl`
 export const LinksRow = styled.div`
   display: grid;
   grid-template-columns: 8em 1fr;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    grid-template-columns: none;
+    grid-template-rows: auto;
+  }
 `;
 
 export const LinksValue = styled.dd`
