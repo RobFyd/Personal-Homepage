@@ -31,7 +31,7 @@ export const Box = styled.span`
   background: ${({ theme }) => theme.colors.themeSwitch.background};
   border: 1px solid;
   padding: 3px;
-  border-radius: 12px;
+  border-radius: 14px;
   width: 48px;
   display: flex;
 `;
