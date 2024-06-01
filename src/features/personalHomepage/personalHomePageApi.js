@@ -14,6 +14,7 @@ export const excludedRepositories = [
   "RobFyd",
   "to-do-list-in-react-without-redux",
   "JavaScript30",
+  "Employee-Management-System",
 ];
 
 const preferredOrder = [
