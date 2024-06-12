@@ -15,6 +15,8 @@ export const excludedRepositories = [
   "to-do-list-in-react-without-redux",
   "JavaScript30",
   "Employee-Management-System",
+  "Roblox-Alicja",
+  "ThreeJS-Sphere",
 ];
 
 const preferredOrder = [
