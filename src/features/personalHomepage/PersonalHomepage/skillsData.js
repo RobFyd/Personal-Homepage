@@ -29,8 +29,8 @@ export const skills = [
 export const nextSkills = [
   "Node.js",
   "Next.js",
+  "Three.js",
   "React Native",
-  "JS classes",
   "React Testing Library",
   "WordPress/Drupal",
 ];
