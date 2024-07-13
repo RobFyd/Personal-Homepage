@@ -15,6 +15,7 @@ const colorNames = {
   tundora: "#414141",
   mineShaft: "#252525",
   mineShaftLighter: "#313131",
+  lightCyan: "#DFF6FF",
 };
 
 const common = {
@@ -47,10 +48,10 @@ export const themeLight = {
       border: colorNames.ironTransparent,
       shadow: colorNames.anakiwa,
     },
-    boxBackground: colorNames.white,
-    headreLine: colorNames.mercury,
+    boxBackground: colorNames.lightCyan,
+    headerLine: colorNames.mercury,
     title: {
-      border: colorNames.porcelain,
+      border: colorNames.mercury,
       borderHover: colorNames.tropicalBlue,
       header: colorNames.scienceBlue,
     },
