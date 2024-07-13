@@ -16,7 +16,7 @@ export const excludedRepositories = [
   "JavaScript30",
   "Employee-Management-System",
   "Roblox-Alicja",
-  "ThreeJS-Sphere",
+  "Money-Exchanger",
 ];
 
 const preferredOrder = [
@@ -24,12 +24,12 @@ const preferredOrder = [
   "To-Do-List-in-React",
   "Money-Exchanger-in-React",
   "Calculator-JS",
+  "ThreeJS-Sphere",
   "Tic-Tac-Toe-in-React",
   "BMI-Calculator",
   "Currency-Converter",
   "Homepage",
   "To-Do-List",
-  "Money-Exchanger",
 ];
 
 export const getRepositories = (username) =>
