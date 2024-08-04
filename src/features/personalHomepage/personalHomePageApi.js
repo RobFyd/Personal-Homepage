@@ -17,6 +17,7 @@ export const excludedRepositories = [
   "Employee-Management-System",
   "Roblox-Alicja",
   "Money-Exchanger",
+  "Hangman",
 ];
 
 const preferredOrder = [
