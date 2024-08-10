@@ -18,6 +18,7 @@ export const excludedRepositories = [
   "Roblox-Alicja",
   "Money-Exchanger",
   "Hangman",
+  "Fix-It-Fast",
 ];
 
 const preferredOrder = [
