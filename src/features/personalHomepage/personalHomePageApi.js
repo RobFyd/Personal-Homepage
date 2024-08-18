@@ -19,6 +19,7 @@ export const excludedRepositories = [
   "Money-Exchanger",
   "Hangman",
   "Fix-It-Fast",
+  "lang-box",
 ];
 
 const preferredOrder = [
