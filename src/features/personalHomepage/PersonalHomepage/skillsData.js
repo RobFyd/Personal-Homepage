@@ -20,6 +20,8 @@ export const skills = [
   "Promises, Async/Await",
   "Working with API (fetch, axios)",
   "SQLite",
+  "Vite",
+  "Airtable",
   "Teamwork",
   "GitHub Pull Requests & Review",
   "Scrum",
