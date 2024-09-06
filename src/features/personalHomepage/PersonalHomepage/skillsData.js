@@ -4,8 +4,7 @@ export const skills = [
   "NPM",
   "Git",
   "CSS BEM convention",
-  "CSS Grid",
-  "CSS Flexbox",
+  "CSS Grid/Flexbox",
   "Styled Components",
   "JavaScript",
   "TypeScript",
@@ -21,11 +20,11 @@ export const skills = [
   "Working with API (fetch, axios)",
   "SQLite",
   "Vite",
-  "Airtable",
   "Teamwork",
   "GitHub Pull Requests & Review",
   "Scrum",
   "Figma",
+  "Airtable",
 ];
 
 export const nextSkills = [
