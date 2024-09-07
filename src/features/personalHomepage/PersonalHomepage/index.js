@@ -1,4 +1,4 @@
-import { Container, Icon } from "./styled";
+import { Container, Icon, Icon2 } from "./styled";
 import { ThemeSwitch } from "../../../common/ThemeSwitch";
 import { MainInformation } from "./MainInformation";
 import { Skills } from "./Skills";
@@ -24,7 +24,7 @@ export const PersonalHomepage = () => (
       <Skills
         title={
           <>
-            What I want to learn next <Icon src={rocketIcon} alt="" />
+            What I want to learn next <Icon2 src={rocketIcon} alt="" />
           </>
         }
         skills={nextSkills}
