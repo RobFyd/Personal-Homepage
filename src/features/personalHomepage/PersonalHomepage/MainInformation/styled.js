@@ -64,11 +64,36 @@ export const Summary = styled.p`
 `;
 
 export const Icon = styled.img`
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-6px);
+    }
+    60% {
+      transform: translateY(-2px);
+    }
+  }
+  animation: bounce 1s infinite;
   margin-right: 6px;
   vertical-align: text-top;
 `;
 
 export const Icon2 = styled.img`
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  animation: rotate 3s linear infinite;
   margin-right: 10px;
   vertical-align: text-top;
 `;
