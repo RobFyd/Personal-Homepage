@@ -21,6 +21,7 @@ export const excludedRepositories = [
   "Fix-It-Fast",
   "lang-box",
   "practice-in-react2",
+  "react-project",
 ];
 
 const preferredOrder = [
