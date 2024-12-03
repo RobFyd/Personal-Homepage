@@ -22,6 +22,7 @@ export const excludedRepositories = [
   "lang-box",
   "practice-in-react2",
   "react-project",
+  "react-styling",
 ];
 
 const preferredOrder = [
