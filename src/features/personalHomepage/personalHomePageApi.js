@@ -36,6 +36,7 @@ const preferredOrder = [
   "Currency-Converter",
   "Homepage",
   "To-Do-List",
+  "Card-React-Project",
 ];
 
 export const getRepositories = (username) =>
