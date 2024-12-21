@@ -23,6 +23,8 @@ export const excludedRepositories = [
   "practice-in-react2",
   "react-project",
   "react-styling",
+  "react-styling-Styled-Components",
+  "react-styling-TailwindCSS",
 ];
 
 const preferredOrder = [
@@ -37,6 +39,7 @@ const preferredOrder = [
   "Homepage",
   "To-Do-List",
   "Card-React-Project",
+  "Exchange-Rate-Calculator",
 ];
 
 export const getRepositories = (username) =>
