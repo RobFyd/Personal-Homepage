@@ -25,6 +25,7 @@ export const excludedRepositories = [
   "react-styling",
   "react-styling-Styled-Components",
   "react-styling-TailwindCSS",
+  "Task-Tracker",
 ];
 
 const preferredOrder = [
