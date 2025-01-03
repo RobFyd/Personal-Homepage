@@ -25,7 +25,7 @@ export const excludedRepositories = [
   "react-styling",
   "react-styling-Styled-Components",
   "react-styling-TailwindCSS",
-  "Task-Tracker",
+  "To-Do-List",
 ];
 
 const preferredOrder = [
@@ -38,7 +38,7 @@ const preferredOrder = [
   "BMI-Calculator",
   "Currency-Converter",
   "Homepage",
-  "To-Do-List",
+  "Task-Tracker",
   "Card-React-Project",
   "Exchange-Rate-Calculator",
 ];
