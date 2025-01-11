@@ -26,6 +26,7 @@ export const excludedRepositories = [
   "react-styling-Styled-Components",
   "react-styling-TailwindCSS",
   "To-Do-List",
+  "Interpreter-tool",
 ];
 
 const preferredOrder = [
