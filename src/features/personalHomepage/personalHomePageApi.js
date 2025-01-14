@@ -35,11 +35,11 @@ const preferredOrder = [
   "Money-Exchanger-in-React",
   "Calculator-JS",
   "ThreeJS-Sphere",
+  "Task-Tracker",
   "Tic-Tac-Toe-in-React",
   "BMI-Calculator",
   "Currency-Converter",
   "Homepage",
-  "Task-Tracker",
   "Card-React-Project",
   "Exchange-Rate-Calculator",
 ];
