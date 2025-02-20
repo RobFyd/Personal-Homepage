@@ -12,7 +12,6 @@ export const skills = [
   "Redux Saga, Toolkit",
   "Tailwind CSS",
   "Bootstrap",
-  // "Redux (Toolkit)",
   "Styled Components",
   "Error handling",
   "Promises, Async/Await",
@@ -39,4 +38,6 @@ export const nextSkills = [
   "React Native",
   "React Testing Library",
   "WordPress/Drupal",
+  "Firebase",
+  "OpenAI API",
 ];
