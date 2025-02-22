@@ -11,15 +11,16 @@ export const socials = [
     Icon: styleIcon(GithubIcon),
   },
   {
-    name: "Facebook",
-    url: "https://www.facebook.com/robert.fydrych",
-    Icon: styleIcon(FacebookIcon),
-  },
-  {
     name: "LinkedIn",
     url: "http://linkedin.com/in/robert-fydrych",
     Icon: styleIcon(LinkedInIcon),
   },
+  {
+    name: "Facebook",
+    url: "https://www.facebook.com/robert.fydrych",
+    Icon: styleIcon(FacebookIcon),
+  },
+
   // {
   //   name: "Instagram",
   //   url: "https://instagram.com",
