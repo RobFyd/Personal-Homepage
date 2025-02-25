@@ -16,6 +16,7 @@ export const skills = [
   "Error handling",
   "Promises, Async/Await",
   "Working with API (fetch, axios)",
+  "OpenAI API",
   "Immutability",
   "SQLite",
   "Vite, React Create App",
@@ -39,5 +40,4 @@ export const nextSkills = [
   "React Testing Library",
   "WordPress/Drupal",
   "Firebase",
-  "OpenAI API",
 ];
