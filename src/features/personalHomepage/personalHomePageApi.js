@@ -28,6 +28,7 @@ export const excludedRepositories = [
   "To-Do-List",
   "Interpreter-tool",
   "Recipes",
+  "employee-list",
 ];
 
 const preferredOrder = [
