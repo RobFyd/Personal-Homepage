@@ -29,6 +29,7 @@ export const excludedRepositories = [
   "Interpreter-tool",
   "Recipes",
   "employee-list",
+  "modal",
 ];
 
 const preferredOrder = [
