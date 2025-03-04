@@ -30,6 +30,7 @@ export const excludedRepositories = [
   "Recipes",
   "employee-list",
   "modal",
+  "zr-react-router",
 ];
 
 const preferredOrder = [
