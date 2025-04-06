@@ -31,6 +31,7 @@ export const excludedRepositories = [
   "employee-list",
   "modal",
   "zr-react-router",
+  "shop",
 ];
 
 const preferredOrder = [
