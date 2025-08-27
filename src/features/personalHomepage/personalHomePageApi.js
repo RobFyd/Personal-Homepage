@@ -32,6 +32,7 @@ export const excludedRepositories = [
   "modal",
   "zr-react-router",
   "Scad-project",
+  "Card-React-Project",
 ];
 
 const preferredOrder = [
