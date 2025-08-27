@@ -31,12 +31,12 @@ export const excludedRepositories = [
   "employee-list",
   "modal",
   "zr-react-router",
-  "shop",
   "Scad-project",
 ];
 
 const preferredOrder = [
   "movies-browser-panama",
+  "Shop-in-React",
   "To-Do-List-in-React",
   "Money-Exchanger-in-React",
   "Calculator-JS",
@@ -46,7 +46,6 @@ const preferredOrder = [
   "BMI-Calculator",
   "Currency-Converter",
   "Homepage",
-  "Card-React-Project",
   "Exchange-Rate-Calculator",
 ];
 
