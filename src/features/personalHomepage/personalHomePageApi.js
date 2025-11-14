@@ -35,6 +35,7 @@ export const excludedRepositories = [
   "Card-React-Project",
   "hello-next",
   "zr-mini-project-next",
+  "react-and-typescript",
 ];
 
 const preferredOrder = [
