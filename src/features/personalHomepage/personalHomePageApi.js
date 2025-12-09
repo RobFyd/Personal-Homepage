@@ -36,6 +36,7 @@ export const excludedRepositories = [
   "hello-next",
   "zr-mini-project-next",
   "react-and-typescript",
+  "zr-react-hook-form",
 ];
 
 const preferredOrder = [
