@@ -37,6 +37,7 @@ export const excludedRepositories = [
   "zr-mini-project-next",
   "react-and-typescript",
   "zr-react-hook-form",
+  "ZR-tanstack-query",
 ];
 
 const preferredOrder = [
